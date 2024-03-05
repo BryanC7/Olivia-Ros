@@ -57,12 +57,44 @@ i {
 
 .navbar-toggler {
     font-size: 2rem;
+    border: white solid 1px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
 }
 
 .btn-lg {
     width: 10rem;
     padding: 1.2rem;
     font-size: 1.5rem;
+}
+
+.btn-cian {
+    border: var(--dark-cian) solid 1px;
+    color: white;
+    background: var(--dark-cian);
+}
+
+.btn-cian:hover {
+    border: var(--dark-cian) solid 1px;
+    color: white;
+    background: var(--dark-cian);
+}
+
+.btn-cian-outline{ 
+    border: var(--dark-cian) solid 1px;
+    color: white;
+}
+
+.btn-cian-outline:hover {
+    background: var(--dark-cian);
+    color: white;
+    border: var(--dark-cian) solid 1px;
+}
+
+.btn-cian-outline-negative {
+    color: var(--dark-cian);
 }
 
 /* Colores */
