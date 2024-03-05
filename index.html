@@ -13,7 +13,7 @@
         <title>Olivia Ros</title>
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-navbar">
+    <nav class="navbar navbar-expand-lg bg-navbar fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="/assets/img/logo.png" alt="logo" width="150" height="20">
@@ -36,65 +36,71 @@
             </div>
         </div>
     </nav>
-    <header class="container-hero">
-        <img class="img-hero" src="assets/img/bg-hero.jpg"/>
-        <div class="text-hero text-end text-light">
-            <h1 class="fw-bold mb-5">Comidas del fin del mundo</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
+
+    <section class="container-fluid hero-container d-flex justify-content-end align-items-center site-padding-lr">
+        <div class="col-md-8 offset-md-8 text-end">
+            <h1 class="text-light fw-bold">Comidas del fin del mundo</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
             <div class="mt-5">
-                <button type="button" class="btn btn-lg btn-outline-primary">Trabajos</button>
-                <button type="button" class="btn btn-lg btn-primary ms-3">Contacto</button>
+                <button type="button" class="btn btn-lg btn-outline-info">Trabajos</button>
+                <button type="button" class="btn btn-lg btn-info ms-3">Contacto</button>
             </div>
         </div>
-    </header>
+    </section>
 
     <section class="container text-center my-5">
         <h2 class="fw-bold mb-5">Acerca de mi</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.?</p>
-        <div class="d-flex justify-content-center align-items-center mt-5">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5">
             <div>
                 <i class="fa-solid fa-camera mb-4"></i>
-                <h3 class="fw-bold mb-5">Fotógrafa de comida</h3>
+                <h4 class="fw-bold mb-5">Fotógrafa de comida</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
             </div>
             <div>
                 <i class="fa-solid fa-bullhorn mb-4"></i>
-                <h3 class="fw-bold mb-5">Crítica culinaria</h3>
+                <h4 class="fw-bold mb-5">Crítica culinaria</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
             </div>
             <div>
                 <i class="fa-solid fa-map mb-4"></i>
-                <h3 class="fw-bold mb-5">Bloggera de viajes</h3>
+                <h4 class="fw-bold mb-5">Bloggera de viajes</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
             </div>
         </div>
     </section>
 
     <section class="bg-works">
-        <h2 class="fw-bold text-center text-light mb-5">Mis trabajos</h2>
-        <div class="d-flex justify-content-between">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2 class="fw-bold text-center text-light py-5">Mis trabajos</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-2 g-lg-5 py-5 mx-4">
+            <div class="col">
+                <div class="card mb-5 mb-lg-0">
+                    <img src="/assets/img/card-1.jpg" class="card-img-top size-img" alt="card-1">
+                    <div class="card-body ms-3">
+                        <h3 class="card-title fw-bold py-2">Asado en la Patagonia</h3>
+                        <p class="card-text my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                        <a href="#" class="btn btn-lg btn-outline-info my-3">Ver más</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col">
+                <div class="card mb-5">
+                    <img src="/assets/img/card-2.jpg" class="card-img-top size-img" alt="card-2">
+                    <div class="card-body ms-3">
+                        <h3 class="card-title fw-bold py-2">Papas del fin del mundo</h3>
+                        <p class="card-text my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                        <a href="#" class="btn btn-lg btn-outline-info my-3">Ver más</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col">
+                <div class="card mb-5">
+                    <img src="/assets/img/card-3.jpg" class="card-img-top size-img" alt="card-3">
+                    <div class="card-body ms-3">
+                        <h3 class="card-title fw-bold py-2">Salmones de Alaska</h3>
+                        <p class="card-text my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                        <a href="#" class="btn btn-lg btn-outline-info my-3">Ver más</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,23 +112,27 @@
                 <h2 class="fw-bold mb-5">Contáctame</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.?</p>
             </div>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                    <input type="email" class="form-control">
+            <form class="text-end mb-5">
+                <div class="mb-3 text-start">
+                    <label class="form-label fw-bold">Nombre</label>
+                    <input class="form-control form-control-lg" placeholder="Nombre">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Correo electrónico</label>
-                    <input type="password" class="form-control">
+                <div class="mb-3 text-start">
+                    <label class="form-label fw-bold">Correo electrónico</label>
+                    <input class="form-control form-control-lg" placeholder="Correo electrónico">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                    <input type="password" class="form-control">
+                <div class="mb-3 text-start">
+                    <label class="form-label fw-bold">Mensaje</label>
+                    <textarea class="form-control" rows="8" placeholder="Escribe aquí tu mensaje"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-lg btn-info">Enviar</button>
             </form>
         </div>
     </section>
+
+    <footer class="bg-dark text-center p-5">
+        <p class="text-light m-0">Olivia Ros 2024. Todos los derechos reservados</p>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/1ad65aac44.js" crossorigin="anonymous"></script>
